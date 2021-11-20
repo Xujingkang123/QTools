@@ -53,9 +53,7 @@ namespace QTools
                 {
                     showGUI = true;
 
-                    if (!lineMaterial)
-                    {
-                        lineMaterial = new Material(Shader.Find("Mobile/VertexLit"));
+                   lineMaterial = new Material(Shader.Find("Standard")); 
                     }
                     if (UIRoot.instance != null)
                     {
